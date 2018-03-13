@@ -1,21 +1,27 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import SocialLinks from './components/SocialLinks'
 import styled from 'styled-components'
 
-const StyledBody = styled.body`
+const Wrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100vw;
   height: 100vh;
   font-family: "Questrial", sans-serif;
+  background-color: ghostwhite;
 `
 
 const StyledHeader = styled.header`
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
+  width: 100%;
 `
 const NameH2 = styled.h2`
   margin: 15px 0 0 0 ;
@@ -27,24 +33,31 @@ const TitleH4 = styled.h4`
   color: #795548;
 `
 
+const StyledMain = styled.main`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+`
+
 class App extends Component {
   render() {
     return (
-      <StyledBody>
 
-        <StyledHeader>
-          <NameH2>Tyler McDonald</NameH2>
-          <TitleH4>Software Engineer</TitleH4>
-        </StyledHeader>
+        <Wrapper>
 
-        <main>
-          <AboutMe />
-          <Projects />
-          <SocialLinks />
-        </main>
+          <StyledHeader>
+            <NameH2>Tyler McDonald</NameH2>
+            <TitleH4>Software Engineer</TitleH4>
+          </StyledHeader>
 
-        <script src="app.js"></script>
-      </StyledBody>
+          <StyledMain>
+            <AboutMe />
+            <Projects />
+            <SocialLinks />
+          </StyledMain>
+
+        </Wrapper>
     );
   }
 }
