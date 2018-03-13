@@ -1,13 +1,20 @@
-body {
+/* body {
   font-family: "Crimson Text", serif;
-  background-color: rgb(233, 176, 19);
+  background-color: rgb(220, 220, 220);
+  max-width: 100%;
+  padding: 0 5%;
 }
+
+main {
+  padding: 0, 10%;
+}
+
 header {
   display: flex;
   justify-content: center;
-  background-color: teal;
+
 }
 a {
   color: teal;
   text-decoration: none;
-}
+} */
