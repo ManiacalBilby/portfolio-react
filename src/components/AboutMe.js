@@ -22,6 +22,7 @@ const Wrapper = styled.div`
 
   const SecondParagraph = styled.p`
     margin-top: 0;
+    padding-bottom: 5px;
   `
 
 class AboutMe extends Component {
