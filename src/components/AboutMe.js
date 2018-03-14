@@ -20,12 +20,16 @@ const Wrapper = styled.div`
   };
   `
 
+  const SecondParagraph = styled.p`
+    margin-top: 0;
+  `
+
 class AboutMe extends Component {
   render() {
     return (
       <Wrapper>
         <p>I am a full-stack developer who enjoys a collaborative work environment while solving problems small and large with clean, concise code.</p> 
-        <p>Having worked in fields strongly relying on my education in psychology, I bring an understanding of human behavior and interactions that is valuable when working with teams and clients.</p>
+        <SecondParagraph>Having worked in fields strongly relying on my education in psychology, I bring an understanding of human behavior and interactions that is valuable when working with teams and clients.</SecondParagraph>
       </Wrapper>
     );
   }
