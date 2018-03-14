@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  font-size: 1.25rem;
+  font-size: 1rem;
   padding: 0 0 10px 10px;
   background-image: url("https://i.imgur.com/spM38v9.jpg");
   background-size: cover;
