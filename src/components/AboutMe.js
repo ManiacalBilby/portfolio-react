@@ -4,7 +4,7 @@ import styled from 'styled-components'
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  font-size: 1rem;
+  font-size: .75rem;
   padding: 0 0 10px 10px;
   background-image: url("https://i.imgur.com/spM38v9.jpg");
   background-size: cover;
@@ -13,10 +13,10 @@ const Wrapper = styled.div`
   color: white;
   text-shadow: 2px 2px 5px rgba(7, 7, 7, 1);
   @media (min-width: 768px) {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   };
   @media (min-width: 1225px) {
-    font-size: 2.5rem;
+    font-size: 2rem;
   };
   `
 
