@@ -8,6 +8,7 @@ const Wrapper = styled.div`
   width: 100%;
   min-height: 175px;
   background-color: teal;
+  flex-grow: 1;
 `
 const ProjectsDiv = styled.div`
   display: flex;

@@ -7,6 +7,7 @@ const Wrapper = styled.div`
   align-items: center;
   width: 100%;
   min-height: 175px;
+  flex-grow: 1;
 `
 
 const LinksDiv = styled.div`

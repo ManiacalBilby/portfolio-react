@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
-  font-size: .75rem;
+  /* font-size: .75rem; */
   padding: 0 0 10px 10px;
   background-image: url("https://i.imgur.com/spM38v9.jpg");
   background-size: cover;
@@ -16,13 +17,13 @@ const Wrapper = styled.div`
     font-size: 1.5rem;
   };
   @media (min-width: 1225px) {
-    font-size: 2rem;
+    font-size: 1.75rem;
   };
   `
 
   const SecondParagraph = styled.p`
     margin-top: 0;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
   `
 
 class AboutMe extends Component {
