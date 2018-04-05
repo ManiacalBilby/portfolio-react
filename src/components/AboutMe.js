@@ -6,6 +6,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: .75rem;
   padding: 0 0 10px 10px;
   background-image: url("https://i.imgur.com/spM38v9.jpg");
   background-size: cover;
