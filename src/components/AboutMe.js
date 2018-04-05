@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   color: white;
   text-shadow: 2px 2px 5px rgba(7, 7, 7, 1);
   min-height: 100px;
-  @media (min-width: 768px) {
+  @media (min-width: 768px) and (min-height: 450px) {
     font-size: 1.5rem;
   };
   @media (min-width: 1225px) {
