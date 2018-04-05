@@ -5,7 +5,7 @@ const Wrapper = styled.div`
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  /* font-size: .75rem; */
+  justify-content: center;
   padding: 0 0 10px 10px;
   background-image: url("https://i.imgur.com/spM38v9.jpg");
   background-size: cover;
@@ -13,6 +13,7 @@ const Wrapper = styled.div`
   background-attachment: fixed;
   color: white;
   text-shadow: 2px 2px 5px rgba(7, 7, 7, 1);
+  min-height: 100px;
   @media (min-width: 768px) {
     font-size: 1.5rem;
   };

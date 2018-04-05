@@ -22,6 +22,7 @@ const StyledHeader = styled.header`
   align-items: center;
   background-color: white;
   width: 100%;
+  height: 75px;
 `
 const NameH2 = styled.h2`
   margin: 15px 0 0 0 ;
