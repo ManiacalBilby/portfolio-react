@@ -10,8 +10,8 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
   font-family: "Questrial", sans-serif;
   background-color: ghostwhite;
 `
@@ -39,7 +39,7 @@ const StyledMain = styled.main`
   align-items: center;
   flex-direction: column;
   width: 100%;
-  height: 90%;
+  height: 100%;
 `
 
 class App extends Component {
