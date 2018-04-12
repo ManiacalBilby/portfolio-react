@@ -22,6 +22,7 @@ const Wrapper = styled.div`
   `
   const AboutP = styled.p`
     margin: 8px auto;
+    width: 98%;
   `
 
 class AboutMe extends Component {
