@@ -6,9 +6,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  /* min-height: 175px; */
   background-color: teal;
-  /* flex-grow: 1; */
 `
 const ProjectsDiv = styled.div`
   display: flex;
@@ -20,10 +18,17 @@ const ProjectsDiv = styled.div`
 const ProjectDiv = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin: 0 5px 10px;
   min-height: 400px;
   width: 300px;
+  margin: 20px;
+`
+
+const ProjectImg = styled.img`
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0;
+  transition: box-shadow 0.3s ease;
+  border-radius: 1%;
 `
 
 const StyledLink = styled.a`
@@ -33,16 +38,15 @@ const StyledLink = styled.a`
   text-decoration: none;
   color: #795548;
   font-size: 1.5rem;
+  &:hover ${ProjectImg} {
+    box-shadow: 7px 4px 32px 0 #074854;
+    transition: box-shadow 0.3s ease;
+  }
 `
 // const StyledHeader = styled.h2`
 //   color: ghostwhite;
 //   margin: 10px 0 0;
 // `
-
-const ProjectImg = styled.img`
-  width: 100%;
-  max-width: 500px;
-`
 
 const ProjectTitle = styled.h3`
   margin: 0 0 5px 0;
@@ -67,21 +71,23 @@ class Projects extends Component {
             <ProjectTitle>Hangman</ProjectTitle>
               <ProjectImg src="https://i.imgur.com/3fZoEXR.png?1" alt="Western Hangman" />
             </StyledLink>
-            <p>Bender, we're trying our best. I've got to find a way to escape the horrible ravages of youth. Suddenly, I'm going to the bathroom like clockwork, every three hours. And those jerks at Social Security stopped sending me checks. Now 'I'' have to pay ''them'!</p>
+            <p>A "Hangman" style game with a simple western theme.
+                The player will click a letter from the alphabet box. If the letter is in the hidden word it will be displayed in each place it occurs. If it is incorrect the letter will fade and an incorrect guess counter will decrease by 1. Guesses will continue until the word is complete or 6 incorrect guesses have been used. Built using HTML, CSS, and jQuery.</p>
           </ProjectDiv>
           <ProjectDiv>
             <StyledLink href="https://young-bastion-12479.herokuapp.com/">
             <ProjectTitle>TreeTime</ProjectTitle>
               <ProjectImg src="https://i.imgur.com/dZsLQ5Z.png?1" alt="Tree Time app" />
             </StyledLink>
-            <p>Bender, we're trying our best. I've got to find a way to escape the horrible ravages of youth. Suddenly, I'm going to the bathroom like clockwork, every three hours. And those jerks at Social Security stopped sending me checks. Now 'I'' have to pay ''them'!</p>
+            <p>TreeTime is an app that can be used by disc golf players to save courses and keep an online inventory of their discs. Built using MERN stack(MongoDB, Express, React and Node).</p>
           </ProjectDiv>
           <ProjectDiv>
             <StyledLink href="https://lit-river-55055.herokuapp.com">
             <ProjectTitle>Sticktimes</ProjectTitle>
               <ProjectImg src="https://i.imgur.com/cA21UGV.png?1" alt="Sticktimes app" />
             </StyledLink>
-            <p>Bender, we're trying our best. I've got to find a way to escape the horrible ravages of youth. Suddenly, I'm going to the bathroom like clockwork, every three hours. And those jerks at Social Security stopped sending me checks. Now 'I'' have to pay ''them'!</p>
+            <p>I created an app that can be used by local amateur hockey players to keep track of available playing times at local ice rinks. These available playing times are referred to as "sticktimes".
+                The Sticktimes App allows a user to have favorite rinks and view the available stick times for each rink. Built using MongoDB, Express, and Node.</p>
           </ProjectDiv>
         </ProjectsDiv>
 
