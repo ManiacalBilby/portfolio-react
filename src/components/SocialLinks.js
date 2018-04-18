@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
@@ -30,25 +30,22 @@ const StyledHeader = styled.h2`
   color: teal;
 `
 
-class SocialLinks extends Component {
-  render() {
-    return (
-      <Wrapper>
-        <StyledHeader>Connect</StyledHeader>
-        <LinksDiv>
-          <LinkDiv>
-            <StyledLink href="https://twitter.com/tylermcdonald">Twitter</StyledLink>
-          </LinkDiv>
-          <LinkDiv>
-            <StyledLink href="https://github.com/ManiacalBilby">GitHub</StyledLink>
-          </LinkDiv>
-          <LinkDiv>
-            <StyledLink href="https://www.linkedin.com/in/tylerwmcdonald/">Linkedin</StyledLink>
-          </LinkDiv>
-        </LinksDiv>
-      </Wrapper>
-    );
-  }
-}
+const SocialLinks = () => (
+
+  <Wrapper>
+    <StyledHeader>Connect</StyledHeader>
+    <LinksDiv>
+      <LinkDiv>
+        <StyledLink href="https://twitter.com/tylermcdonald">Twitter</StyledLink>
+      </LinkDiv>
+      <LinkDiv>
+        <StyledLink href="https://github.com/ManiacalBilby">GitHub</StyledLink>
+      </LinkDiv>
+      <LinkDiv>
+        <StyledLink href="https://www.linkedin.com/in/tylerwmcdonald/">Linkedin</StyledLink>
+      </LinkDiv>
+    </LinksDiv>
+  </Wrapper>
+)
 
 export default SocialLinks;

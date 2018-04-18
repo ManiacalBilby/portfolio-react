@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react'
+import styled from 'styled-components'
 import AboutMe from './components/AboutMe'
 import Projects from './components/Projects'
 import SocialLinks from './components/SocialLinks'
-import styled from 'styled-components'
-
 
 const StyledHeader = styled.header`
   display: flex;
@@ -30,26 +29,23 @@ const StyledMain = styled.main`
   width: 100%;
 `
 
-class App extends Component {
-  render() {
-    return (
+const App = () => (
 
-        <div>
+  <div>
 
-          <StyledHeader>
-            <NameH2>Tyler McDonald</NameH2>
-            <TitleH4>Software Engineer</TitleH4>
-          </StyledHeader>
+    <StyledHeader>
+      <NameH2>Tyler McDonald</NameH2>
+      <TitleH4>Software Engineer</TitleH4>
+    </StyledHeader>
 
-          <StyledMain>
-            <AboutMe />
-            <Projects />
-            <SocialLinks />
-          </StyledMain>
+    <StyledMain>
+      <AboutMe />
+      <Projects />
+      <SocialLinks />
+    </StyledMain>
 
-        </div>
-    );
-  }
-}
+  </div>
+);
+
 
 export default App;

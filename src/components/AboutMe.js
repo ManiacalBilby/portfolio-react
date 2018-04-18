@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
@@ -20,20 +20,22 @@ const Wrapper = styled.div`
     font-size: 1.75rem;
   };
   `
-  const AboutP = styled.p`
+const AboutP = styled.p`
     margin: 8px auto;
     width: 98%;
   `
 
-class AboutMe extends Component {
-  render() {
-    return (
-      <Wrapper>
-        <AboutP>I am a full-stack developer who enjoys a collaborative work environment while solving problems small and large with clean, concise code.</AboutP> 
-        <AboutP>Having worked in fields strongly relying on my education in psychology, I bring an understanding of human behavior and interactions that is valuable when working with teams and clients.</AboutP>
-      </Wrapper>
-    );
-  }
-}
+const AboutMe = () => (
+  <Wrapper>
+    <AboutP>I am a full-stack developer who enjoys a collaborative work environment
+      while solving problems small and large with clean, concise code.
+    </AboutP>
+    <AboutP>Having worked in fields strongly relying on my education in psychology,
+      I bring an understanding of human behavior and interactions
+      that is valuable when working with teams and clients.
+    </AboutP>
+  </Wrapper>
+
+)
 
 export default AboutMe;
