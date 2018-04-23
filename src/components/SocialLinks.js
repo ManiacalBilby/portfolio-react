@@ -36,13 +36,13 @@ const SocialLinks = () => (
     <StyledHeader>Connect</StyledHeader>
     <LinksDiv>
       <LinkDiv>
-        <StyledLink href="https://twitter.com/tylermcdonald">Twitter</StyledLink>
+        <StyledLink href="https://www.linkedin.com/in/tylerwmcdonald/">Linkedin</StyledLink>
       </LinkDiv>
       <LinkDiv>
         <StyledLink href="https://github.com/ManiacalBilby">GitHub</StyledLink>
       </LinkDiv>
       <LinkDiv>
-        <StyledLink href="https://www.linkedin.com/in/tylerwmcdonald/">Linkedin</StyledLink>
+        <StyledLink href="https://twitter.com/tylermcdonald">Twitter</StyledLink>
       </LinkDiv>
     </LinksDiv>
   </Wrapper>
