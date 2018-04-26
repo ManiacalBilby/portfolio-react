@@ -4,9 +4,7 @@ import styled from 'styled-components'
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   text-align: center;
-  font-size: 1rem;
   background-image: url("https://i.imgur.com/aLr5Jn2.jpg");
   background-size: cover;
   background-position: center;
