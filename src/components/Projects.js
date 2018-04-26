@@ -66,7 +66,7 @@ const Projects = () => (
         <p>My wife is a hair stylist and uses a paper and pen appointment book
           so I decided to make a scheduling app.
           The idea behind the app is to have access to your appointments from anywhere.
-          Built using React, Ruby on Rails, and PostgreSQL
+          Built using React, Ruby on Rails, and PostgreSQL.
         </p>
       </ProjectDiv>
       <ProjectDiv>
